@@ -1,0 +1,107 @@
+#caja  {
+    margin: 0 auto;
+    border: 2px solid;  
+    border-color: black; 
+    text-align:center;
+    width: 90%;
+    height: 500px;
+    background: white;
+    box-shadow: 5px 10px grey;
+    
+
+}
+
+
+body{
+    background:white;
+       
+}
+
+li:hover{
+    background-color: yellow;
+    color:pink;
+}
+
+.titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 10px;
+    padding: 0px;
+}
+
+#separador {
+    
+    padding: 0px;
+    border-top: 1px solid;  
+    border-color: black; 
+    width: 800px;
+    margin:0px auto;
+}
+
+.tituloarriba {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.tituloabajo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    letter-spacing: 20px;
+    margin-bottom: 30px;
+}
+
+
+.foto {
+    width:250px;
+    height:100px;
+    filter:grayscale;
+    padding:15px 0px 15px 0px;
+
+}
+
+#fotopiano{
+    display: flex row;
+    text-align: center;
+    padding:15px 0px 15px 0px;
+    
+}
+
+    
+#parrafo{
+    width:90%;
+    height: 500px;
+    text-align: center;
+    font-family: Alumni;
+    font-size: 20px;
+    color: black;
+    /*padding:15px 0px 15px 0px;*/
+    
+}
+
+#menu {
+    font-family:Arial;
+    color:purple;
+    font-weight:bold;
+    font-size:25px;
+    text-align: center;
+    
+}
+
+#menu li {
+     display:inline;
+     padding-left:15px;
+     padding-right:15px;
+}
+     
